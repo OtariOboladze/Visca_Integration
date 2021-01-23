@@ -2,13 +2,34 @@
     border: solid 0.1px red;
 }
 
-main{
+/* main{
     display: flex;
-    justify-content: space-around;
-}
+    align-items: flex-start;
+} */
 
 .card{
-    width: 200px;
-    height: 300px;
-    gap: 15px;
+    /* display: inline; */
+    /* width: 200px; */
+    /* height: 100px;
+    gap: 15px; */
+    display: inline-block;
+    width: 100%;
+}
+
+.logo{
+    width: 84px;
+    height: 42px;
+}
+
+button{
+    position: relative;
+    float: right;
+    width: 143px;
+    height: 36px;
+}
+
+.price{
+    width: 100%;
+    position: relative;
+    text-align: left;
 }
