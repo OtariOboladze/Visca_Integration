@@ -1,0 +1,14 @@
+*{
+    border: solid 0.1px red;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    gap: 15px;
+}
