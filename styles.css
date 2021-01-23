@@ -1,43 +1,40 @@
 * {
   border: solid 0.1px red;
 }
-
-/* main{
-    display: flex;
-    align-items: flex-start;
-} */
-
 .card {
-  /* display: inline; */
-  /* width: 200px; */
-  /* height: 100px;
-    gap: 15px; */
-  display: inline-block;
-  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
 }
+
 
 .logo {
-  position: relative;
+  /* position: relative; */
   width: 84px;
   height: 42px;
-  left: 56px;
-  top: 9px;
-  background: url("https://picsum.photos/id/237/200/300");
+  /* left: 56px; */
+  background-image: url('https://picsum.photos/id/237/200/300');
 }
 
+/* 
 .price_button {
   position: relative;
   float: right;
 }
+
 button {
   width: 143px;
   height: 36px;
-}
+} */
+
 .price {
   width: 100%;
-  position: relative;
-  text-align: left;
 }
+
+div.price{
+  text-align: end;
+}
+/*
 .number {
   position: relative;
   width: 12px;
@@ -53,15 +50,14 @@ button {
   color: #525252;
 }
 
-.star {
+.stars {
   position: relative;
   width: 11px;
   height: 11px;
   left: 189px;
   top: 25px;
-  background: #fbc02d;
 }
 
 .checked {
   color: orange;
-}
+} */
