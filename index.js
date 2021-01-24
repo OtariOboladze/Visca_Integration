@@ -1,14 +1,12 @@
-var folder = "images/";
+function grid_view() {
+  document.getElementById("container").classList.add("list2");
 
-$.ajax({
-    url : folder,
-    success: function (data) {
-        $(data).find("a").attr("href", function (i, val) {
-            array.forEach(val => {
-                
-            });( val.match(/\.(jpe?g|png|gif)$/) ) { 
-                $("#logo").append( "<img src='"+ folder + val +"'>" );
-            } 
-        });
-    }
-});
+  document.getElementById("container").classList.remove("grid2");
+}
+
+function list_view() {
+    document.getElementById("container").classList.remove("list2");
+  
+    document.getElementById("container").classList.add("grid2");
+  }
+  

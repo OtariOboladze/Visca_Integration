@@ -2,8 +2,8 @@
   border: solid 0.1px red;
 }
 .card {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   height: 60px;
   align-items: center;
 }
@@ -28,22 +28,17 @@
   background-image: url("https://picsum.photos/id/235/200/300");
 }
 
-#logo_1, #logo_2, #logo_3, #logo_4, #logo_5 {
+#logo_1,
+#logo_2,
+#logo_3,
+#logo_4,
+#logo_5 {
+  /* position: absolute; */
   width: 84px;
   height: 42px;
   margin: 20px 20px 20px 0pc;
+  /* left: 80px; */
 }
-
-/* 
-.price_button {
-  position: relative;
-  float: right;
-}
-
-button {
-  width: 143px;
-  height: 36px;
-} */
 
 .price {
   width: 100%;
@@ -52,33 +47,6 @@ button {
 div.price {
   text-align: end;
 }
-/*
-.number {
-  position: relative;
-  width: 12px;
-  height: 26px;
-  left: 21px;
-  top: 16px;
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 26px;
-  letter-spacing: -0.92px;
-  color: #525252;
-}
-
-.stars {
-  position: relative;
-  width: 11px;
-  height: 11px;
-  left: 189px;
-  top: 25px;
-}
-
-.checked {
-  color: orange;
-} */
 
 .number {
   font-family: Source Sans Pro;
@@ -91,6 +59,28 @@ div.price {
   color: #525252;
 }
 
+/* .read_more {
+  margin: 0;
+} */
+
+.checked {
+  color: orange;
+}
+
+.stars{
+  /* position: absolute;
+  left: 190px; */
+  /* display: flex;
+  justify-content: space-around; */
+  margin-right: 20px;
+}
+
 .read_more{
+  /* position: absolute;
+  left: 300px; */
+}
+
+.read_more_text{
+  width: 100px;
   margin: 0;
 }

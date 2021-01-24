@@ -1,0 +1,12 @@
+#container{
+    display: inline-flex;
+}
+
+.list2{
+    flex-direction: row;
+}
+
+.grid2{
+    flex-direction: column;
+}
+
